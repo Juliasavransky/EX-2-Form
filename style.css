@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+.container {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fcfaf7;
+}
+.header {
+  background-color: #0e1649;
+  padding: 2rem 0;
+}
+.margin-0-auto {
+  margin: 0 auto;
+}
+
+.image {
+  margin: 4rem 0;
+}
+.main {
+  width: 87rem;
+}
+h1 {
+  margin: 4rem 0;
+  font-family: Times New Roman;
+  font-size: 7.2rem;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 1.44px;
+  color: #0e1649;
+}
+span {
+  font-family: Arial;
+  font-size: 1.8rem;
+  color: #1c1c1c;
+}
+
+section span {
+  letter-spacing: 0.36px;
+}
+h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: 0.64px;
+  color: #ff7748;
+  text-transform: uppercase;
+}
+p {
+  font-size: 1.8rem;
+}
+p:first-of-type {
+  font-family: Arial;
+  line-height: 1.5;
+  color: #1c1c1c;
+  margin: 1.6rem 0;
+}
+p:last-of-type {
+  font-family: Times New Roman;
+  font-weight: bold;
+  line-height: 1.67;
+  color: #0e1649;
+  margin-bottom: 4rem;
+}
+.btn {
+  border-radius: 100px;
+  background-color: #ff7748;
+  text-decoration: none;
+  font-family: Courier New;
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2.2px;
+  color: #fff;
+  display: inline-block;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #f55318;
+  outline: none;
+}
+.btn:active {
+  background-color: #ff8d66;
+  outline: none;
+}
+
+.btn__main {
+  padding: 1.2rem 10.6rem;
+}
+.btn__form {
+  padding: 1.2rem 18.3rem;
+  margin-bottom: 12.9rem;
+}
+.line {
+  width: 91.2%;
+  height: 1px;
+  background-color: #e1e1e1;
+  margin: 4rem auto;
+}
+h4 {
+  font-family: Times New Roman;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #0e1649;
+  margin-bottom: 1.6rem;
+}
+.form {
+  width: 54.8rem;
+}
+input {
+  display: block;
+  margin: 3.2rem auto;
+  width: 42.6rem;
+  height: 5.6rem;
+  opacity: 0.9;
+  border-radius: 100px;
+  border: solid 1px #1c1c1c;
+  font-size: 1.6rem;
+  padding-left: 2.4rem;
+}
+input::placeholder {
+  font-family: Roboto;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  text-align: left;
+  color: #555a7d;
+  margin: auto 0;
+}
+input:focus {
+  outline-color: #ff7748;
+}
+a {
+  display: block;
+  font-size: 24px;
+  line-height: 1.33;
+  color: #ff5288;
+  margin-bottom: 1.6rem;
+}
